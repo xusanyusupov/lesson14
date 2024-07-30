@@ -1,0 +1,213 @@
+
+
+/* KATTA PLANSHETLAR UCHUN MEDIA */
+
+
+@media (max-width: 1024px) {
+    .container{
+        max-width: 950px;
+        width: 100%;
+        padding: 0 10px;
+        margin: 0 auto;
+    }
+    #head{
+        position: sticky;
+        top: 0;
+        width: 100%;
+        display: inline-block;
+        background-color: var(--bck-color);
+        transition: .5s linear;
+        z-index: 1001;
+    }
+    .header__logo img{
+        width: 160px;
+        height: 100%;
+    }
+    .btn__global.white span{
+        display: none;
+    }
+    .navbar{
+        border-bottom: none;
+    }
+    /* HERO START MEDIA */
+    #hero{
+        background-color: var(--bck-color);
+        padding: 60px 0;
+    }
+    .hero__image,
+    .hero__main{
+        width: 50%;
+    }
+    .hero__image img{
+        width: 450px;
+    }
+    .hero__main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 25px;
+    }
+    .hero__text-title{
+        font-size: 45px;
+        font-weight: 700;
+        color: var(--color-text);
+    }
+    .hero__text-bt{
+        font-size: 25px;
+        color: var(--color-text);
+    }
+    .hero__text{
+        color: var(--color-text);
+        font-size: 15px;
+        line-height: 23.44px;
+    }
+    /* BTN YELLOW START MEDIA*/
+    .btn__global.yellow{
+        background-color: var(--btn-bck-color);
+        padding: 10px 30px 10px 30px;
+        transition: var(--transition);
+        color: var(--hover-collection);
+        font-size: 16px;
+        border: 1px solid var(--hover-collection);
+    }
+    .btn__global.yellow:hover{
+        background-color: var(--main-content-text-color);
+        color: var(--hover-collection);
+    }
+    /* BTN YELLOW START MEDIA */
+    /* HERO END MEDIA */   
+    /* CAR START MEDIA  */
+    .card{
+        background-color: var(--hover-collection);
+        width: 100%;
+    }
+    .card__wrapper{
+        display: flex;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .card__text{
+        color: var(--hover-collection);
+        text-align: center;
+        display: block;
+        font-size: 22px;
+    }
+    .there__content{
+        position: relative;
+        z-index: 2;
+        transition: var(--transition);
+    }
+    .there__content:hover{
+        border-radius: 55px;
+        color: var(--bck-color);
+    }
+    .there__content:hover .none{
+        display: block;
+        position: absolute;
+        top: 10%;
+        padding: 10px 18px;
+        border-radius: 10px;
+        left: 100px;
+        background-color: var(--hover-collection);
+    }   
+    /* CAR END MEDIA  */
+    /* IMPORTANT CONTENT START MEDIA  */
+    /* IMPORTANT 1  */
+    .important__title{
+        width: 387px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 65px;
+        color: var(--btn-bck-color);
+        font-size: 36px;
+    }
+    .line{
+        display: block;
+        margin: 10px auto;
+        width: 160px;
+        height: 8px;
+        background-color: var(--bck-color);
+        border-radius: 8px;
+    }
+    .important__title{
+        width: 387px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 65px;
+        color: var(--main-content-text-color);
+        font-size: 36px;
+    }
+    .line{
+        display: block;
+        margin: 10px auto;
+        width: 160px;
+        height: 8px;
+        background-color: var(--btn-bck-color);
+        border-radius: 8px;
+    }
+    .hero__main.gap{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .important{
+        margin-top: 100px;
+    }
+    .important .only{
+        color: var(--color-text);
+    }
+    .two__content.gp{
+        display: flex;
+        gap: 50px;
+    }
+    /* IMPORTANT 1 END  */
+    /* IMPORTANT 2   */
+    .fa-circle-check{
+        color: var(--main-content-text-color);
+        font-size: 20px;
+    }
+    .hero__main.gap p{
+        display: flex;
+        gap: 10px;
+    }
+    .hero__main.gap,
+    .hero__image{
+        width: 100%;
+    }
+    .hero__main.gap p{
+        display: flex;
+        gap: 5px;
+    }
+    .hero__image.sz img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    /* IMPORTANT 2 END  */
+    /* IMPORTANT 3  */
+    .hero__main.gap .only{
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .noneMedia{
+        display: none;
+    }
+    .media__more{
+        display: block;
+        width: 100%;
+        padding: 10px 15px;
+        border-radius: 20px;
+        border: none;
+        background-color: var(--btn-bck-color);
+        transition: var(--transition);
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .media__more:hover{
+        color: var(--hover-collection);
+        background-color: goldenrod;
+    }
+    /* IMPORTANT 3 END */
+    /* IMPORTANT CONTENT END MEDIA  */
+}
